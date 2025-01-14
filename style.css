@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+  }
+  
+.scene-1{
+    width: 1920px;
+    height: 600px;
+    background-color: rgb(159, 156, 175);
+}
+.scene-2{
+    width: 0;
+    height: 0;
+    border-left: 100vw solid transparent;
+    border-bottom: 13.9vw solid white;
+    margin-top: -13.8vw;
+}
+.circle{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(187, 152, 219);
+    border-radius: 50%;
+    position: relative;
+    left: 60%;
+    bottom: 300px;
+    z-index: 10px;
+}
